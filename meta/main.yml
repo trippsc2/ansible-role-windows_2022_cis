@@ -1,0 +1,21 @@
+---
+galaxy_info:
+    author: Jim Tarpley
+    namespace: trippsc2
+    role_name: windows_2022_cis
+    description: This role applies the CIS Benchmark hardening steps on Windows Server 2022 machines.
+
+    license: MIT
+
+    min_ansible_version: '2.11'
+
+    platforms:
+      - name: Windows
+        versions:
+          - '2022'
+
+collections:
+  - chocolatey.chocolatey
+  - community.windows
+
+dependencies: []
