@@ -3,4 +3,4 @@
   hosts:
     - subjects
   roles:
-    - role: trippsc2.windows_2022_cis
+    - role: trippsc2.cis.windows2022
